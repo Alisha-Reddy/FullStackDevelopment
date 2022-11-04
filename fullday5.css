@@ -1,0 +1,23 @@
+
+
+.container-div{
+    height:200px;
+    width:200px;
+    background:green;
+    color:darkgreen;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:50;
+    text-align: center;
+}
+
+.container-div{
+    height:200px;
+    width:200px;
+    background:rgb(255, 96, 52);
+    color:rgb(236, 11, 11);
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:50;
+    text-align: center;
+}

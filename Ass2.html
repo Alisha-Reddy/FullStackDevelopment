@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <title>Assignemt 2</title>
+    <style>
+        body{
+            background-image: url(bgpic.jpg);
+            background-size:cover ;
+            background-position: center;
+        }
+        .menu-nav{
+            height: 50px;
+            width: 100%;
+            background-color: blue;
+            padding: 15px;
+        }
+        .menu-list{
+            list-style-type:none;
+            display: inline-flex;
+        }
+        
+        .items{
+            right:0px;
+            display:inline-flex;
+            position: absolute;
+        }
+        .list{
+            margin: 2px;
+            padding: 10px;
+        }
+        .sub_items{
+            display: none;
+        }
+        
+        ul a{
+            font-size: 30px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-decoration: underline overline;
+            color: rgb(255, 94, 0);
+        }
+        ul li a{
+            color: rgb(245, 255, 209);
+            font-size: 20px;
+            font-family:cursive;
+            text-decoration: none;
+        }
+        ul li a:hover{
+            color: aqua;
+            border: 2px solid rgb(120, 221, 232);
+            
+        }
+        ul li:hover{
+            background-color: rgb(250, 182, 47);
+        }
+        /*div ul li a:hover ul li{
+            display: block;
+        }
+        ul li ul{
+            position:absolute;
+            width: 200px;
+            display: noneS;
+        }
+        li ul li{
+            display: block;
+            background: black;
+        }*/
+        .menu-list li:hover .sub_items{
+            display:block;
+            position: absolute;
+            background-color: blueviolet;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .menu-list li:hover .sub_items ul li{
+            width:100px;
+            padding:10px;
+            border-bottom: 1px dotted #fff;
+            background:transparent;
+            
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="menu-nav">
+    <div>
+        <ul class="menu-list">
+            <a>ASSIGNMENT 2</a>
+            <div class="items">
+            <li class="list"><a href="#">Home</a></li>
+            <li class="list">
+                <a href="T">
+                Courses</a>
+                <div class="sub_items">
+                <ul>
+                    <li><a href="k">CPP</a></li>
+                    <li><a href="l">JAVA</a></li>
+                    <li><a href="m">PYTHON</a></li>
+                </ul> 
+                </div>       
+            </a></li>
+            <li class="list"><a href="k">Contacts</a></li>
+            <li class="list"><a href="k">About Us</a></li>
+            </div>
+        </ul>
+    </div>
+    </nav>
+</body>
+</html>

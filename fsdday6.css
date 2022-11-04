@@ -1,0 +1,48 @@
+/* .main-heading{
+    color:chartreuse;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+.menu-list{
+    list-style-type:none;
+    display:inline-flex;
+}
+.menu-item{
+    padding:10px;
+    margin:10px;
+}
+.menu-nav{
+    height:80px;
+    width:100%;
+    background-color: rgb(7, 7, 155);
+}
+/* ul tag, li tag and anchor tag */
+ul li a{
+    color:aliceblue;
+    font-size:20px;
+    font-weight:500;
+    text-decoration: none;
+}
+.items{
+    display: inline-flex;
+    position:absolute;
+    right:0px;
+}
+ul li a:hover{
+    color: rgb(230, 255, 69);
+    border: 2px solid #fff;
+    
+}
+ul li:hover{
+    background-color: rgba(0, 255, 255, 0.694);
+}
+.active{
+    background-color:rgba(44, 255, 220, 0.726);
+    color:antiquewhite;
+}
+.input-box{
+    height:30px;
+    width:200px;
+    border: 2px solid rgba(51, 4, 53, 0.655);
+    border-radius: 10px;
+    background-color: rgb(255, 184, 207);
+}
